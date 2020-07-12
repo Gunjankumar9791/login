@@ -1,0 +1,103 @@
+znbkcbb
+<!-- <table>
+
+  <tr>
+    <th>avatar_url</th>
+    <th>description</th>
+    <th>events_url</th>
+    <th>hooks_url</th>
+    <th>id</th>
+    <th>issues_url</th>
+    <th>login</th>
+    <th>members_url</th>
+    <th>node_id</th>
+    <th>public_members_url</th>
+    <th>repos_url</th>
+    <th>url</th>
+  </tr>
+  <tr *ngFor="let value of selectedDocument">
+    <th>{{value.avatar_url}} </th>
+    <th>{{value.description}} </th>
+    <th>{{value.events_url}} </th>
+    <th>{{value.hooks_url}} </th>
+    <th>{{value.id}} </th>
+    <th>{{value.issues_url}} </th>
+    <th>{{value.login}} </th>
+    <th>{{value.members_url}} </th>
+    <th>{{value.node_id}} </th>
+    <th>{{value.public_members_url}} </th>
+    <th>{{value.repos_url}} </th>
+    <th>{{value.url}} </th>
+    
+  </tr>
+</table>
+
+<button (click)="clearrecord()">clear</button> -->
+<!-- 
+<div class="login-page">
+  <div class="login-panel-container">
+      <div class="login-pannel-alignment-container">
+          <div class="login-panel-content-container">
+              <div class="form-signin">
+                  <div class="row justify-content-md-center" id="login">
+                      <div class="login_page_tvs">
+                          <h3>TVS PROFITUP</h3>
+                          <form *ngIf="BrowserMessage==''" role="form" align="center">
+                              <div class="form-content">
+                                  <div class="form-group marbottom">
+                                      <p class="lable-span">Dealer Code / Employee code</p>
+                                      <input id="inputUserName" type="text" [(ngModel)]="UserName" style="color: #fff !important;"
+                                          class="form-control input-underline input-lg" required autofocus name="Code">
+                                      <span class="errorMsg1">{{this.Username_errormessage}}</span>
+                                  </div>
+                                  <div class="form-group">
+                                      <p class="lable-span">Password</p>
+                                      <input type="password" id="inputPassword" [(ngModel)]="Password" style="color: #fff !important;"
+                                          class="form-control input-underline input-lg" required autofocus name="Code">
+                                      <span class="errorMsg1">{{this.Password_errormessage}}</span>
+                                  </div>
+                              </div>
+
+                              <button id="open" *ngIf="BrowserMessage==''" class="btn rounded-btn" (click)="onLoggedin(1)">LOGIN
+                              </button>
+                              <span class="errorMsg width100 floatLeft">{{loginerrormessage}}</span>
+                              <div class="width100">
+                                  <a href="" class="forgot-password" data-toggle="modal" data-target="#forgotPassword">Forgot
+                                      Password?</a>
+                              </div>
+
+                              <div class="width100">
+                                  <div id="Agree_popup" data-toggle="modal" data-target="#Agree_Modal" class="disclaimer"></div>
+                              </div>
+                              <div id="popup" data-toggle="modal" data-target="#Response_Modal"></div>
+                          </form>
+                          <span *ngIf="BrowserMessage!=''" class="errorMsgLogin">{{BrowserMessage}}</span>
+                      </div>
+                  </div>
+                  <div class="row justify-content-md-center" id="login_otp">
+                      <div class="login_page_tvs">
+                          <h3>TVS Analytica</h3>
+                          <form role="form" align="center">
+                              <div class="form-content">
+                                  <div class="form-group marbottom">
+                                      <p class="lable-span">Enter OTP</p>
+                                      <input id="OTP_value" type="password" [(ngModel)]="OTP_value" style="color: #000 !important;"
+                                          class="form-control input-underline input-lg" required autofocus name="Code">
+                                  </div>
+                                  <div>
+                                      <span *ngIf="hide_resend_otp == true" class="resend_otp" (click)="onLoggedin(2)">Resend
+                                          OTP</span>
+                                      <span class="timer" id="OTP_timer"></span>
+                                  </div>
+                              </div>
+                              <button class="btn rounded-btn" (click)="onSubmitOTP()">Submit </button>
+
+                              <span class="errorMsg1">{{OTPErrorMessage}}</span>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
